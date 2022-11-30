@@ -1,0 +1,23 @@
+* b87b674 Nuevos parrafos agregados
+*   990d0d2 Agregando estaciones con prefijo. Conflicto amend-commmit solucionado
+|\  
+| * 19e5a1a Agregando las estaciones
+* | 20c76cd Agregando estaciones con prefijo
+|/  
+*   3a1b160 Conflitcto merge html-main resuelto
+|\  
+| * 87f016c Nuevos cambios a html-htmlbranch
+* | 569726c Nuevos cambios a html-mainbranch
+* |   d806845 Merge branch 'js'
+|\ \  
+| * | dbfe175 Nuevo archivo para branch js
+* | | 87aeabb Nuevo archivo para branch css
+| |/  
+|/|   
+* | 333df15 Nuevo archivo para branch html
+|/  
+* 8d04ba9 Ignorando archivos .exe
+* 0cf5fc2 Licencia de repositorio creada
+* a2783bd Usando el README.md no .mk
+* e6981d9 Realizando actualizacion al codigo
+* 1496e5f Primer Commit

@@ -1,0 +1,98 @@
+commit b87b674abf30e8f52d94b3e255c3e510922ad94e
+Author: Juli├ín Acosta <julian.acostat@uqvirtual.edu.co>
+Date:   Mon Nov 28 21:37:52 2022 -0500
+
+    Nuevos parrafos agregados
+
+commit 990d0d284e4280ab77af21eb21e8b8f1d0b7816f
+Merge: 20c76cd 19e5a1a
+Author: Juli├ín Acosta <julian.acostat@uqvirtual.edu.co>
+Date:   Mon Nov 28 21:32:49 2022 -0500
+
+    Agregando estaciones con prefijo. Conflicto amend-commmit solucionado
+
+commit 20c76cd89be17f81664f1ca37db53d73caaec2f6
+Author: Juli├ín Acosta <julian.acostat@uqvirtual.edu.co>
+Date:   Mon Nov 28 20:47:48 2022 -0500
+
+    Agregando estaciones con prefijo
+
+commit 19e5a1ab22831414b9d2206adef8e20a9425c0ae
+Author: Juli├ín Acosta <julian.acostat@uqvirtual.edu.co>
+Date:   Mon Nov 28 20:47:48 2022 -0500
+
+    Agregando las estaciones
+
+commit 3a1b1602b9aa2c5738c683c3769a8f80715fc25d
+Merge: 569726c 87f016c
+Author: Juli├ín Acosta <julian.acostat@uqvirtual.edu.co>
+Date:   Mon Nov 28 20:01:09 2022 -0500
+
+    Conflitcto merge html-main resuelto
+
+commit 87f016c61f7b605632957d97a98691eb72a73b4c
+Author: Juli├ín Acosta <julian.acostat@uqvirtual.edu.co>
+Date:   Mon Nov 28 19:55:38 2022 -0500
+
+    Nuevos cambios a html-htmlbranch
+
+commit 569726cfa46d3fb10b1e85c9a4fb0853c156dc22
+Author: Juli├ín Acosta <julian.acostat@uqvirtual.edu.co>
+Date:   Mon Nov 28 19:53:56 2022 -0500
+
+    Nuevos cambios a html-mainbranch
+
+commit d8068454bf8cd68fe5bc00a1a6616f8b067755c0
+Merge: 87aeabb dbfe175
+Author: Juli├ín Acosta <julian.acostat@uqvirtual.edu.co>
+Date:   Mon Nov 28 19:35:40 2022 -0500
+
+    Merge branch 'js'
+
+commit dbfe175583c358540b15620f06069991285d6782
+Author: Juli├ín Acosta <julian.acostat@uqvirtual.edu.co>
+Date:   Mon Nov 28 19:19:18 2022 -0500
+
+    Nuevo archivo para branch js
+
+commit 87aeabb4d2d8e1f36c2913f035294af8226baf99
+Author: Juli├ín Acosta <julian.acostat@uqvirtual.edu.co>
+Date:   Mon Nov 28 19:15:27 2022 -0500
+
+    Nuevo archivo para branch css
+
+commit 333df1529044b91426839c20ccbca84c32c7bda4
+Author: Juli├ín Acosta <julian.acostat@uqvirtual.edu.co>
+Date:   Mon Nov 28 19:11:50 2022 -0500
+
+    Nuevo archivo para branch html
+
+commit 8d04ba98e51206fdf4099ef1b6d2a88262ac64f0
+Author: Juli├ín Acosta <julian.acostat@uqvirtual.edu.co>
+Date:   Sun Nov 27 21:22:21 2022 -0500
+
+    Ignorando archivos .exe
+
+commit 0cf5fc22b938ceff4cacd63117ddae7d18af4075
+Author: Juli├ín Acosta <64759997+YanTic@users.noreply.github.com>
+Date:   Sun Nov 27 20:13:50 2022 -0500
+
+    Licencia de repositorio creada
+
+commit a2783bdb72bdc809dfc67530cfe403ec7c19634b
+Author: Juli├ín Acosta <julian.acostat@uqvirtual.edu.co>
+Date:   Sun Nov 27 18:53:43 2022 -0500
+
+    Usando el README.md no .mk
+
+commit e6981d9b586a0021dfe4fde5e90218bf4b5a38e6
+Author: Juli├ín Acosta <julian.acostat@uqvirtual.edu.co>
+Date:   Sun Nov 27 18:52:19 2022 -0500
+
+    Realizando actualizacion al codigo
+
+commit 1496e5ffa2697f538a8fea051819387c6d0d17d5
+Author: Juli├ín Acosta <julian.acostat@uqvirtual.edu.co>
+Date:   Sun Nov 27 17:45:33 2022 -0500
+
+    Primer Commit
