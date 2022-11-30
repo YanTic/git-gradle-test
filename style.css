@@ -1,4 +1,19 @@
-.item-html {
-    background-color: tomato;
-    color: darkgreen;
+html {
+    background-color: darkslategrey;
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+a {
+    color: azure;
+}
+
+a:hover {
+    color: yellow;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
 }
