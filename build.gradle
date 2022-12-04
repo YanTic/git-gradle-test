@@ -1,3 +1,161 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = "11"
+version = "1.0"
+mainClassName = 'HolaMundo'
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'HolaMundo'
+    }
+}
+
+
+task a {
+    doLast {
+        println 'Estoy ejecutando la tarea A'
+    }
+}
+
+task b {
+    dependsOn 'a'
+
+    doLast {
+        println 'Estoy ejecutando la tarea B'
+    }
+}
+
+task c(dependsOn: 'b') {
+    doLast {
+        println 'Estoy ejecutando la tarea C'
+    }
+}
+
+task d {
+    println 'd.running'
+    
+    doFirst {
+        println 'd.doFirst{}'
+    }
+
+    doLast {
+        println 'd.doLast{}'
+    }
+}
+
+task e {
+    dependsOn 'd'    
+
+    println 'e.running'
+
+    doFirst {
+        println 'e.doFirst'
+    }
+
+    doLast {
+        println 'e.doLast'
+    }
+}
+
+//----------------------------------
+
+task tareaA {
+    doLast {
+        println 'Corriendo la tarea A'
+    }
+}
+
+task tareaB {
+    doLast{
+        println 'Corriendo la tarea B'
+    }
+}
+
+tareaB.mustRunAfter tareaA
+tareaA.finalizedBy tareaB
+
+//----------------------------------
+
+task compilar {
+    doLast {
+        println 'Compilando el proyecto'
+    }
+}
+
+task distribuir {
+    onlyIf {
+        compilar.didWork
+    }
+
+    doLast {
+        println 'Distribuir el proyecto'
+    }
+}
+
+
+task caminar {
+    onlyIf {
+        new File('configuracion.xml').exists()
+    }
+
+    doLast {
+        println 'Estoy caminando'
+    }
+}
+
+//----------------------------------
+
+task crearDir {
+    doFirst {
+        println 'Creando directorio. . .'
+        new File('dist').mkdirs()
+    }
+}
+
+task copiar(type: Copy, dependsOn: crearDir) {
+    println 'Copiando. . .'
+    from 'tools'
+    into 'dist/tools'
+
+//    include '*.txt'
+//    exclude '*.bat'
+//    exclude '*.sh'
+}
+
+
+//----------------------------------
+
+task ejecutar(dependsOn: copiar, type: Exec) {
+//    commandLine 'cmd', '/c', 'dir', '-r', 'dist'
+    commandLine 'cmd', '/c', 'Powershell ls -r', 'dist'
+
+    standardOutput = new FileOutputStream('dist/salida.txt')
+//    standardInput = 
+}
+
+
+//----------------------------------
+
+task comprimir {
+    doLast {
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------------------------
+
 task holaMundo {
 
     ext.proyecto = "-Proyecto gradle-"

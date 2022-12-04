@@ -1,0 +1,22 @@
+
+
+    Directory: D:\git-course\dist
+
+
+Mode                 LastWriteTime         Length Name                                                       
+----                 -------------         ------ ----                                                       
+d-----         12/4/2022   6:22 PM                tools                                                      
+-a----         12/4/2022   6:54 PM              0 salida.txt                                                 
+
+
+    Directory: D:\git-course\dist\tools
+
+
+Mode                 LastWriteTime         Length Name                                                       
+----                 -------------         ------ ----                                                       
+-a----         12/4/2022   6:22 PM              0 instalar.bat                                               
+-a----         12/4/2022   6:22 PM              0 instalar.sh                                                
+-a----         12/4/2022   6:22 PM              0 license.txt                                                
+-a----         12/4/2022   6:22 PM              0 readme.txt                                                 
+
+
