@@ -1,0 +1,59 @@
+task holaMundo {
+
+    ext.proyecto = "-Proyecto gradle-"
+
+    ext {
+        nombre = 'Julian'
+        email = 'julian@email.com'
+        version = 'v1.0.0'
+    }
+
+//    doLast {
+//       println 'Compilando proyecto '+ proyecto + ' '+ version
+//    }
+}
+
+holaMundo.doLast {
+    println 'Compilando proyecto '+ proyecto + ' '+ version
+
+    // Tambien se puede usar codigo java
+    Date ahora = new Date()
+    println 'fecha de compilado: '+ ahora.toString()
+}
+
+
+task compilarProy {
+    doLast{
+        println 'Compilando proyecto '+ holaMundo.nombre + ' ' + holaMundo.version
+        println 'Si hay problemas avisar a '+ holaMundo.email
+    }
+}
+
+
+
+
+
+
+// En anteriores versiones de gradle se utilizaba '<<' para que se ejecutara
+// la task y apareciera en "other task" al usar 'gradle tasks --all', además
+// tambien para que no se ejecute la tarea al momento de hacer gradle tasks.
+// Por lo que ahora se usa el doLast{}, tambien se puede ejecutar tasks sin 
+// eso pero cuando se quita, el programa inicia la task sin decirle
+task compile {
+    doLast{
+        println 'Estoy compilando...'
+    }
+    
+}
+
+task pruebasUnitarias {
+    doLast{
+        println 'Estoy lanzando pruebas unitarias'
+    }
+}
+
+task empaquetar {
+    doLast{
+        println 'Estoy creando un ZIP'
+    }
+}
