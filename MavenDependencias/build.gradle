@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+jar {
+    baseName = 'MvnHolaMundo'
+    version = '1.0.0'
+}
+
+mainClassName = 'HolaMundo'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+// compile : Utiliza esta dependencia a la hora de compilar la aplicacion    
+//    compile 'xxxxx'
+
+// runtime : dependencias que no se necesitan a la hora de compilar pero si
+//           al momento de ejecutar, como el driver de 'mysql'
+//    runtime 'xxxxx'
+
+// testCompile : como compile pero solo se lanza cuando se usan pruebas unitarias
+//    testCompile ''
+//    testRuntime ''
+
+    implementation 'org.lwjgl:lwjgl:3.3.1'
+}
