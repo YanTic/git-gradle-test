@@ -137,10 +137,13 @@ task ejecutar(dependsOn: copiar, type: Exec) {
 
 //----------------------------------
 
-task comprimir {
-    doLast {
+task comprimir(dependsOn: ejecutar, type: Zip) {
+    from 'dist'
+    include '*'
+//    archiveName 'archivo.zip'
 
-    }
+    baseName 'miProyecto'
+    version 'v1.0.0-BETA'
 }
 
 

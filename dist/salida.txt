@@ -6,7 +6,7 @@
 Mode                 LastWriteTime         Length Name                                                       
 ----                 -------------         ------ ----                                                       
 d-----         12/4/2022   6:22 PM                tools                                                      
--a----         12/4/2022   6:54 PM              0 salida.txt                                                 
+-a----         12/4/2022   7:26 PM              0 salida.txt                                                 
 
 
     Directory: D:\git-course\dist\tools
